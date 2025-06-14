@@ -1,0 +1,76 @@
+{
+    "name": "Ms . Priyanga J",
+    "about": "Hi! I'm Priyanga J, a passionate 3rd-year B.E student in Computer Science and Engineering at Al-Ameen Engineering College, Erode.\n\nI have a strong interest in machine learning, deep learning, data science and data analytics. My goal is to leverage AI technologies to solve real-world problems efficiently. I enjoy working on projects related to data science, predictive modeling, and AI-driven applications.",
+    "skills": {
+        "Tableau": 55,
+        "Power BI": 60,
+        "C , Java": 65,
+        "SQL": 75,
+        "MongoDB": 70,
+        "Prompt Engineering": 75,
+        "Machine Learning": 79,
+        "Python": 80,
+        "Word, Excel, Powerpoint": 85
+    },
+    "projects": [
+        {
+            "title": "Medical Chatbot (Ongoing)",
+            "description": "Training a medical chatbot to provide basic health-related advice."
+
+        },
+        {
+            "title": "Assistant Chatbot",
+            "description": "Developed an interactive chatbot showcased on Engineers Day at Al-Ameen Engineering College"
+        },
+        {
+            "title": "Insurance Eligibility Finder ",
+            "description": "Creating a system to determine insurance eligibility using their salary and other pays."
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Got first Prize at Logo Creation Competition At Erode Sengunthar Engineering college",
+            "image": "static/certificates/certificate 6.jpg"
+        },
+        {
+            "title": "Completed the 14-day Internship in Full Stack-Python at ETS Academy.",
+            "image": "static/certificates/certificate 2.jpg"
+        },
+        {
+            "title": "Certificae of participation in Hakathon at Erode Sengunthar Engineering College.",
+            "image": "static/certificates/certificate 7.jpg"
+        },
+        {
+            "title": "Completed the 14-day Internship in Amazon Web Services at ETS Academy.",
+            "image": "static/certificates/certificate 5.jpg"
+        },
+        {
+            "title": "Certificae of participation in Paper Presentation at Erode Sengunthar Engineering College.",
+            "image": "static/certificates/certificate 9.jpg"
+        },
+        {
+            "title": "Certificate of Participation in Paper Presentation at PGP College of Engineering and Technology.",
+            "image": "static/certificates/certificate 3.jpg"
+        },
+        {
+            "title": "Certificate of Participation in Paper Presentation at PGP College of Engineering and Technology.",
+            "image": "static/certificates/certificate 4.jpg"
+        },
+        {
+            "title": "Certificae of participation in AD-ZAP at Erode Sengunthar Engineering College.",
+            "image": "static/certificates/certificate 8.jpg"
+        },
+        {
+            "title": "Completed the 15-day Internship in Data Science and Data Analytics at Gateway Software SolutionS.",
+            "image": "static/certificates/certificate 1.jpg"
+        }
+    ],
+    "contact": {
+        "email": "riykutty2615@gmail.com",
+        "phone": "+91 93457 08534"
+    },
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/priyanga-j-053339306",
+        "github": "https://github.com/Priyanga2005"
+    }
+}

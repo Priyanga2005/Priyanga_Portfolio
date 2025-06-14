@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <center>
+    <h1>Contact</h1>
+    <p>Email: <a href="mailto:{{ contact.email|replace('@', '%40') }}?subject=Contact%20from%20Website">{{ contact.email }}</a></p>
+    <br>
+    <p>Phone: {{ contact.phone }}</p>
+        <br><br>
+    <h2>Social Media</h2>
+    <br>
+    <div class="social-icons">
+        <a href="{{ social.linkedin }}" target="_blank">
+            <img src="/static/icons/linkedin.png" alt="LinkedIn" class="social-logo">
+        </a>
+        <a href="{{ social.github }}" target="_blank">
+            <img src="/static/icons/github.png" alt="GitHub" class="social-logo">
+        </a>
+        <a href="mailto:{{ contact.email|replace('@', '%40') }}?subject=Contact%20from%20Website">
+            <img src="/static/icons/gmail.jpeg" alt="Gmail" class="social-logo">
+        </a>
+    </div>
+    <br><br><br><br>
+
+    <a href="/" class="back-button">Back to Home</a>
+    </center>
+</body>
+</html>

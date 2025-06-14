@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .certificate-img {
+            max-width: 300px;
+            cursor: pointer;
+            border: 2px solid white;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .modal-content {
+            margin: 5% auto;
+            display: block;
+            max-width: 90%;
+            height: auto;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .modal-content:hover {
+            cursor: zoom-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Certificates</h1>
+    <ul>
+        {% for cert in certificates %}
+        <li>
+            <h3>{{ cert.title }}</h3>
+            <img src="{{ cert.image }}" alt="{{ cert.title }}" class="certificate-img" onclick="openModal(this.src)">
+        </li>
+        {% endfor %}
+    </ul>
+
+    <center>
+        <a href="/" class="back-button">Back to Home</a>
+    </center>
+
+    <!-- Modal HTML -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- JS -->
+    <script>
+        function openModal(src) {
+            document.getElementById("modalImage").src = src;
+            document.getElementById("imageModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("imageModal").style.display = "none";
+        }
+    </script>
+</body>
+</html>

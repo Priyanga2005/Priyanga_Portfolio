@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(255,0,150,1) 0%, rgba(0,204,255,1) 100%);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+}
+h1, h2 {
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+ul li img {
+    margin-left: 140px;
+    max-width: 300px; /* Optional: Set a max-width for the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.back-button {
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.back-button:hover {
+    background-color: gray;
+    color: white;
+}
+.back-button:last-of-type{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+ul li {
+    background-color: #222;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul li a {
+    color: #00ccff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #444;
+}
+
+@media (max-width: 600px) { /* Simple responsive adjustments */
+    ul li {
+        padding: 15px;
+    }
+
+    .back-button {
+        padding: 8px 15px;
+    }
+}
+
+.resume-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #007bff; /* A nice blue color */
+}
+
+a[download] { /* Style the download link */
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+a[download]:hover {
+    background-color: #0056b3;
+}
+
+.project-list li {
+    margin-bottom: 30px; /* Adjust the value as needed */
+}
+
+.skills-list {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.skill-percentage {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-bar {
+    background-color: #00ccff; /* Skill bar color */
+    height: 5px;
+}
+
+.skill-percentage span {
+    padding-left: 1px;
+    color: #eee;
+}
+
+.about-me {
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words */
+    max-width: 1100px; /* Limit the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle */
+    border: 3px solid #00ccff; /* Optional: Add a border */
+}
+
+.live-demo-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.live-demo-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.profile-pic:hover {
+    opacity: 0.8;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+    margin: 5% auto;
+    display: block;
+    max-width: 90%;
+    height: auto;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+update css.txt
+Displaying update css.txt.
