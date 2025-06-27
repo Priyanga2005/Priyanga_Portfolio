@@ -2,7 +2,7 @@
 
 ## 🚀 Cloning of my Repository
 
-### git clone https://github.com/Rajesh7094/Rajesh_Portfolio.git
+### git clone https://github.com/Priyanga2005/Priyanga_Portfolio.git
 
 ## 🚀 Hosting on Render
 
@@ -12,4 +12,4 @@
 
 ### Step 3: Then Finally deploy it and Get the URL Link
 
-### My Link : https://rajesh-portfolio-mxjg.onrender.com/
+### My Link : https://priyanga-portfolio.onrender.com
